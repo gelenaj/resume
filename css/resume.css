@@ -227,26 +227,33 @@ section.resume-section .resume-item .resume-date {
     height: unset;
 }
 
-/*@media (max-width: 599px){*/
+@media (max-width: 599px){
 
-    /*#sideNav {*/
-    /*height: auto !important;*/
-    /*flex-direction: row;*/
-/*}*/
+    #sideNav {
+    height: auto !important;
+    flex-direction: row;
+}
 
-    /*#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {*/
-    /*display: block;*/
-/*}*/
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+}
 
-    /*#sideNav .navbar-collapse .navbar-nav {*/
-        /*-webkit-box-orient: vertical;*/
-        /*-webkit-box-direction: normal;*/
-        /*-ms-flex-direction: column;*/
-        /*display: flex;*/
-        /*flex-direction: column !important;*/
-        /*width: 100%;*/
-    /*}*/
-/*}*/
+    #sideNav .navbar-collapse .navbar-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .fa-ul>li{
+        font-size: 1rem;
+    }
+
+    .container-fluid{
+        margin-bottom: 400px;
+    }
+}
 
 @media (min-width: 600px) {
     #sideNav {
@@ -457,15 +464,15 @@ section.resume-section .resume-item .resume-date {
         max-height: 21rem;
     }
     #sideNav{
-        height: 9rem !important;
+        height: 6rem !important;
     }
     #sideNav .navbar-collapse .navbar-nav{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     #sideNav .navbar-brand .img-profile{
         max-width: unset;
-        max-height: 18rem;
+        max-height: 11rem;
     }
     .p-lg-5{
         padding: 3rem;
