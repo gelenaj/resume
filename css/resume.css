@@ -26,6 +26,8 @@ body {
 
 iframe {
     background-color: #fff;
+     width:100%;
+    height:500px;
 }
 
 #goodreads-widget a:hover {
@@ -58,17 +60,19 @@ iframe {
     color: #F18F01;
 }
 
-@media (min-width: 992px) {
-    #sideNav .navbar-collapse .navbar-nav {
-        flex-direction: row !important;
-    }
+/*@media (min-width: 600px) {*/
+    /*#sideNav .navbar-collapse .navbar-nav {*/
+        /*flex-direction: unset;*/
+    /*}*/
 
-    body {
-        padding-top: 0;
-        padding-left: 17rem;
-        font-size: 1rem;
-    }
-}
+    /*body {*/
+        /*padding-top: 0;*/
+        /*padding-left: 17rem;*/
+        /*font-size: 1rem;*/
+    /*}*/
+/*}*/
+
+
 
 .fa-ul > li {
     font-size: 2rem;
@@ -87,27 +91,27 @@ h6 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 1rem;
     line-height: 7rem;
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 1rem;
     margin-top: 3rem !important;
     color: #006E90;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #AF3B6E;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 p.lead {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -115,7 +119,7 @@ p.lead {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .social-icons a {
@@ -140,7 +144,7 @@ p.lead {
 }
 
 .dev-icons {
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 .dev-icons .list-inline-item i:hover {
@@ -161,7 +165,7 @@ p.lead {
 }
 
 #sideNav {
-    height: 80px !important;
+    height: auto;
     /*text-align: center;*/
     position: fixed;
     top: 0;
@@ -223,6 +227,113 @@ section.resume-section .resume-item .resume-date {
     height: unset;
 }
 
+/*@media (max-width: 599px){*/
+
+    /*#sideNav {*/
+    /*height: auto !important;*/
+    /*flex-direction: row;*/
+/*}*/
+
+    /*#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {*/
+    /*display: block;*/
+/*}*/
+
+    /*#sideNav .navbar-collapse .navbar-nav {*/
+        /*-webkit-box-orient: vertical;*/
+        /*-webkit-box-direction: normal;*/
+        /*-ms-flex-direction: column;*/
+        /*display: flex;*/
+        /*flex-direction: column !important;*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+
+@media (min-width: 600px) {
+    #sideNav {
+    height: auto !important;
+    flex-direction: row;
+}
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+}
+
+    #sideNav .navbar-collapse .navbar-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    section.resume-section{
+        margin-bottom: 400px;
+        margin-top:200px ;
+    }
+    .container-fluid{
+        width: 75%;
+    }
+
+    .flex-column{
+        flex-direction: row !important;
+    }
+
+    div.resume-content.mr-auto{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 900px) {
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+        font-size: 1rem;
+    }
+
+    section.resume-section{
+    max-width: unset;
+    }
+
+    h1{
+        font-size:11rem;
+    }
+
+    h2{
+        font-size: 5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+
+    .subheading{
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    p.lead{
+        font-size: 3rem;
+    }
+
+    section.resume-section{
+        font-size: 2.5rem;
+    }
+
+    body{
+        font-size: 3rem;
+        width:auto;
+    }
+
+    p{
+        font-size: 3rem;
+    }
+}
+
 @media (min-width: 768px) {
     #sideNav {
         max-height: unset !important;
@@ -262,6 +373,39 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+@media (min-width: 900px){
+    #sideNav .navbar-collapse .navbar-nav {
+        font-size: 1.5rem;
+    }
+
+    body{
+        padding-left: 0px;
+        line-height: 1;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .p-0{
+        padding: auto;
+    }
+    p, section.resume-section, section.resume-section {
+        font-size: 1rem;
+    }
+    .subheading, p.lead{
+        font-size: 2rem;
+    }
+    .subheading{
+        margin-top:1rem;
+    }
+
+}
+
 @media (min-width: 992px) {
     h1 {
         margin-top: 5rem;
@@ -286,7 +430,48 @@ section.resume-section .resume-item .resume-date {
         flex-direction: row !important;
         font-size: 1.5rem;
     }
+    .fa-ul > li{
+        font-size: 1.5rem;
+    }
 }
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 9rem;
+    }
+    .dev-icons{
+        font-size: 5rem;
+    }
+    .fa-ul > li {
+        font-size: 3rem;
+    }
+    #goodreads-widget h1{
+        font-size: 3rem;
+    }
+    iframe{
+        width:unset;
+        height: unset;
+    }
+
+    #goodreads-widget h1{
+        max-height: 21rem;
+    }
+    #sideNav{
+        height: 9rem !important;
+    }
+    #sideNav .navbar-collapse .navbar-nav{
+        font-size: 2.5rem;
+    }
+
+    #sideNav .navbar-brand .img-profile{
+        max-width: unset;
+        max-height: 18rem;
+    }
+    .p-lg-5{
+        padding: 3rem;
+    }
+}
+
 
 .bg-primary {
     background-color: #006E90 !important;
