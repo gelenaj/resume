@@ -91,8 +91,8 @@ h6 {
 }
 
 h1 {
-    font-size: 1rem;
-    line-height: 7rem;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 h2 {
@@ -276,7 +276,6 @@ section.resume-section .resume-item .resume-date {
 
     section.resume-section{
         margin-bottom: 400px;
-        margin-top:200px ;
     }
     .container-fluid{
         width: 75%;
@@ -387,7 +386,7 @@ section.resume-section .resume-item .resume-date {
 
     body{
         padding-left: 0px;
-        line-height: 1;
+        line-height: 2;
     }
     h1{
         font-size: 3rem;
@@ -407,9 +406,7 @@ section.resume-section .resume-item .resume-date {
     .subheading, p.lead{
         font-size: 2rem;
     }
-    .subheading{
-        margin-top:1rem;
-    }
+
 
 }
 
