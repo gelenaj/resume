@@ -426,6 +426,10 @@ section.resume-section .resume-item .resume-date {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
     }
+    section.resume-section{
+        margin-top:0px;
+    }
+
 
     #sideNav {
         height: 6rem !important;
