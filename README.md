@@ -1,3 +1,3 @@
 # resume
 
-This is a resume page.
+This is my online resume page.
