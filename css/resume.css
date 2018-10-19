@@ -274,6 +274,8 @@ section.resume-section .resume-item .resume-date {
         width: 100%;
     }
 
+
+
     section.resume-section{
         margin-bottom: 400px;
     }
@@ -289,55 +291,6 @@ section.resume-section .resume-item .resume-date {
         width: 100%;
     }
 
-}
-
-@media (min-width: 900px) {
-    #sideNav .navbar-collapse .navbar-nav {
-        flex-direction: row !important;
-    }
-
-    body {
-        padding-top: 0;
-        padding-left: 17rem;
-        font-size: 1rem;
-    }
-
-    section.resume-section{
-    max-width: unset;
-    }
-
-    h1{
-        font-size:11rem;
-    }
-
-    h2{
-        font-size: 5rem;
-    }
-    h3{
-        font-size: 3rem;
-    }
-
-    .subheading{
-        font-size: 4rem;
-        margin-top: 3rem;
-    }
-
-    p.lead{
-        font-size: 3rem;
-    }
-
-    section.resume-section{
-        font-size: 2.5rem;
-    }
-
-    body{
-        font-size: 3rem;
-        width:auto;
-    }
-
-    p{
-        font-size: 3rem;
-    }
 }
 
 @media (min-width: 768px) {
@@ -379,34 +332,55 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-@media (min-width: 900px){
+@media (min-width: 900px) {
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: row !important;
+    }
+     #sideNav .navbar-brand .img-profile{
+        max-width:9rem;
+    }
+
+
+
+    body {
+        padding-top: 0;
+        padding-left: 4rem;
+        font-size: 1rem;
+    }
+
+    section.resume-section{
+    max-width: unset;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+    .subheading{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+
+    body{
+        font-size: 1.5rem;
+        width:auto;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
     #sideNav .navbar-collapse .navbar-nav {
         font-size: 1.5rem;
     }
-
-    body{
-        padding-left: 0px;
-        line-height: 2;
-    }
-    h1{
-        font-size: 3rem;
-    }
-    h2{
-        font-size: 2rem;
-    }
-    h3{
-        font-size: 1.5rem;
-    }
-    .p-0{
-        padding: auto;
-    }
-    p, section.resume-section, section.resume-section {
-        font-size: 1rem;
-    }
-    .subheading, p.lead{
-        font-size: 2rem;
-    }
-
 
 }
 
